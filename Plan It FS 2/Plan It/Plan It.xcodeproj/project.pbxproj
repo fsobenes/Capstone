@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A7B8B47AB2CCC731B353E1B /* Pods_Plan_It.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BCF1F5C2168B7637D014B1 /* Pods_Plan_It.framework */; };
+		A95192F223EB270F00FCA5CD /* IntentionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95192F123EB270F00FCA5CD /* IntentionsCell.swift */; };
 		A96984C223DA2CA300370EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96984C123DA2CA300370EE0 /* AppDelegate.swift */; };
 		A96984C423DA2CA300370EE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96984C323DA2CA300370EE0 /* SceneDelegate.swift */; };
 		A96984C623DA2CA300370EE0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96984C523DA2CA300370EE0 /* FirstViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		0D004C1DBB8A872616607A16 /* Pods-Plan It.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan It.release.xcconfig"; path = "Target Support Files/Pods-Plan It/Pods-Plan It.release.xcconfig"; sourceTree = "<group>"; };
 		5CA7CDE8FF30506681BFA3DB /* Pods-Plan It.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan It.debug.xcconfig"; path = "Target Support Files/Pods-Plan It/Pods-Plan It.debug.xcconfig"; sourceTree = "<group>"; };
+		A95192F123EB270F00FCA5CD /* IntentionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionsCell.swift; sourceTree = "<group>"; };
 		A96984BE23DA2CA300370EE0 /* Plan It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96984C123DA2CA300370EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96984C323DA2CA300370EE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,11 +93,12 @@
 				A96984C123DA2CA300370EE0 /* AppDelegate.swift */,
 				A96984C323DA2CA300370EE0 /* SceneDelegate.swift */,
 				A96984C523DA2CA300370EE0 /* FirstViewController.swift */,
+				A9D7FE1823E16435007B9249 /* TodoCell.swift */,
+				A9D7FE6423EAB096007B9249 /* AddTodoController.swift */,
 				A96984C723DA2CA300370EE0 /* SecondViewController.swift */,
 				A96984C923DA2CA300370EE0 /* Main.storyboard */,
-				A9D7FE6423EAB096007B9249 /* AddTodoController.swift */,
-				A9D7FE1823E16435007B9249 /* TodoCell.swift */,
 				A96984D723DA2D8700370EE0 /* IntentionsController.swift */,
+				A95192F123EB270F00FCA5CD /* IntentionsCell.swift */,
 				A96984CC23DA2CA500370EE0 /* Assets.xcassets */,
 				A96984CE23DA2CA500370EE0 /* LaunchScreen.storyboard */,
 				A96984D123DA2CA500370EE0 /* Info.plist */,
@@ -220,6 +223,7 @@
 			files = (
 				A96984C823DA2CA300370EE0 /* SecondViewController.swift in Sources */,
 				A9D7FE1923E16435007B9249 /* TodoCell.swift in Sources */,
+				A95192F223EB270F00FCA5CD /* IntentionsCell.swift in Sources */,
 				A96984C623DA2CA300370EE0 /* FirstViewController.swift in Sources */,
 				A96984C223DA2CA300370EE0 /* AppDelegate.swift in Sources */,
 				A96984D823DA2D8700370EE0 /* IntentionsController.swift in Sources */,
